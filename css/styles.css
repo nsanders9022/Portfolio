@@ -66,6 +66,10 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-size: 18px;
+}
+
 .text {
   color: #777;
   background-color: white;
@@ -90,6 +94,24 @@ h3 {
 .contact-icon {
   height: 60px;
   padding-left: 50px;
+}
+
+.project-image {
+  /*width: 150px;*/
+  height: 75px;
+  border: 2px solid lightGray;
+  padding: 5px;
+}
+
+.big-images img {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.big-images {
+  margin-top: 10px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
