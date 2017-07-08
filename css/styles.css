@@ -7,7 +7,7 @@ body, html {
 
 .picture-1, .picture-2, .picture-3 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,12 +20,12 @@ body, html {
 }
 
 .picture-2 {
-  background-image: url("../img/lake.jpg");
+  background-image: url("../img/sistersMountains.jpg");
   min-height: 400px;
 }
 
 .picture-3 {
-  background-image: url("../img/sistersMountains.jpg");
+  background-image: url("../img/lake.jpg");
   min-height: 400px;
 }
 
@@ -38,12 +38,18 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
+.caption span.title {
   background-color: #111;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+.title {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
 }
 
 h3 {
@@ -54,12 +60,38 @@ h3 {
   text-align: center;
 }
 
-.about {
+.text {
   color: #777;
   background-color: white;
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
+}
+
+.caption span.skills {
+  background-color: #fff;
+  opacity: 0.5;
+  color: black;
+  padding: 18px;
+  font-size: 20px;
+
+  /*letter-spacing: 10px;*/
+}
+
+/*.skills {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}*/
+
+/*.skills {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}*/
+
+.contact-icon {
+  height: 40px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
