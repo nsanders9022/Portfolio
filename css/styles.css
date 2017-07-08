@@ -15,17 +15,17 @@ body, html {
 
 }
 .picture-1 {
-  background-image: url("../img/sistersMountains.jpg");
+  background-image: url("../img/beach.jpg");
   min-height: 100%;
 }
 
 .picture-2 {
-  background-image: url("http://www.art-antiques-design.com/images/basel_l_large.jpg");
+  background-image: url("../img/lake.jpg");
   min-height: 400px;
 }
 
 .picture-3 {
-  background-image: url("https://tealswan.com/uploads/monthly_2016_05/650x365_basel_sommer_650x365_1.jpg.dc66c6b767b53b8c22cae230d08dcc90.jpg");
+  background-image: url("../img/sistersMountains.jpg");
   min-height: 400px;
 }
 
