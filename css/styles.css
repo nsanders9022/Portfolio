@@ -49,13 +49,22 @@ body, html {
   color: #fff;
   padding: 18px;
   font-size: 48px;
-  letter-spacing: 10px;
 }
 
 .title {
   background-color: transparent;
   font-size: 25px;
   color: #f7f7f7;
+  font-family: 'Indie Flower', cursive;
+}
+
+#name {
+  float: left;
+  margin-top: -300px;
+}
+
+#position {
+  float: right;
 }
 
 h3 {
