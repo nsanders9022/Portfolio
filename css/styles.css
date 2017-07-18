@@ -69,7 +69,7 @@ body, html {
 
 h3 {
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 26px "Lato", sans-serif;
   color: #4c1616;
   text-align: center;
 }
@@ -106,7 +106,7 @@ p {
 
 .project-image {
   /*width: 150px;*/
-  height: 75px;
+  height: 150px;
   border: 2px solid lightGray;
   padding: 5px;
 }
