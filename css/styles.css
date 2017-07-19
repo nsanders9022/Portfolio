@@ -128,6 +128,10 @@ p {
   margin: 0px 0px 20px 20px;
 }
 
+.row {
+  padding-bottom: 20px;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .picture-1, .picture-2, .picture-3 {
