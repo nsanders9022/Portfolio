@@ -15,23 +15,23 @@ body, html {
 }
 
 .picture-1 {
-  background-image: url("../img/beach.jpg");
+  background-image: url("../img/duomo.jpg");
   min-height: 100%;
 }
 
 .picture-2 {
-  background-image: url("../img/sistersMountains.jpg");
-  min-height: 600px;
+  background-image: url("../img/thailand.jpg");
+  min-height: 70%;
 }
 
 .picture-3 {
-  background-image: url("../img/lake.jpg");
-  min-height: 600px;
+  background-image: url("../img/mexico.jpg");
+  min-height: 70%;
 }
 
 .picture-4 {
-  background-image: url("../img/water.jpg");
-  min-height: 600px;
+  background-image: url("../img/beach.jpg");
+  min-height: 70%;
   width:100%
 }
 
@@ -52,19 +52,10 @@ body, html {
 }
 
 .title {
-  background-color: transparent;
-  font-size: 25px;
-  color: #f7f7f7;
+  /*background-color: transparent;
+  font-size: 80px;
+  color: blue;*/
   font-family: 'Indie Flower', cursive;
-}
-
-#name {
-  float: left;
-  margin-top: -300px;
-}
-
-#position {
-  float: right;
 }
 
 h3 {
@@ -87,8 +78,9 @@ p {
 }
 
 .caption span.skills {
-  background-color: #fff;
+  background-color: #000;
   opacity: 0.5;
+  box-shadow: 10px 10px 5px black;
   color: #4c1616;
   padding: 25px;
   font-size: 28px;
