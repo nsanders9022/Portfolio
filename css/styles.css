@@ -75,6 +75,14 @@ p {
   text-align: center;
   padding: 50px 180px;
   text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.textbox {
+  box-shadow: 10px 10px 5px black;
+  background-color: rgb(234, 235, 237);
+  padding: 4%;
 }
 
 .caption span.skills {
@@ -88,7 +96,7 @@ p {
 }
 
 .contact {
-  padding-left: 40%;
+  margin: 0 auto;
 }
 
 .contact-icon {
