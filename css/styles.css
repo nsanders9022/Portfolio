@@ -37,25 +37,44 @@ body, html {
 
 .caption {
   position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
   text-align: center;
-  color: #000;
-}
-
-.caption span.title {
-  background-color: #4c1616;
-  color: #fff;
-  padding: 18px;
-  font-size: 48px;
-}
-
-.title {
-  /*background-color: transparent;
-  font-size: 80px;
-  color: blue;*/
+  color: #4c1616;
+  font-size: 72px;
+  font-weight: bold;
   font-family: 'Indie Flower', cursive;
+}
+
+#name {
+  top: 35%;
+  right: 10%;
+}
+
+#developer {
+  top: 45%;
+  right: 10%;
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+.zoomInDown {
+  animation-name: zoomInDown;
 }
 
 h3 {
@@ -69,63 +88,51 @@ p {
   font-size: 18px;
 }
 
+.skills {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
 .text {
   color: #777;
   background-color: white;
   text-align: center;
   padding: 50px 180px;
   text-align: justify;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .textbox {
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 5px #747475;
   background-color: rgb(234, 235, 237);
   padding: 4%;
 }
 
-.caption span.skills {
-  background-color: #000;
-  opacity: 0.5;
-  box-shadow: 10px 10px 5px black;
-  color: #4c1616;
-  padding: 25px;
-  font-size: 28px;
-  font-variant: small-caps;
-}
-
-.contact {
-  margin: 0 auto;
-}
-
-.contact-icon {
-  height: 60px;
-  padding-left: 50px;
-}
-
 .project-image {
-  /*width: 150px;*/
   height: 150px;
   border: 2px solid lightGray;
   padding: 5px;
 }
 
-.big-images img {
-  display: none;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+a {
+  color: brown;
 }
 
-.big-images {
-  margin-top: 10px;
+a:hover {
+  color:black;
 }
 
 #me-picture {
   height: 200px;
   float: right;
   margin: 0px 0px 20px 20px;
+}
+
+.contact-icon {
+  height: 60px;
+  padding-left: 8%;
+  margin: 0 auto;
 }
 
 .row {

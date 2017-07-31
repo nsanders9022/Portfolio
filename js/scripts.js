@@ -12,4 +12,6 @@ $(document).ready(function() {
   $('#reviewCart-thumbnail').hover(function() {
     $('#reviewCart-big').toggle();
   })
+
+  
 })
