@@ -39,18 +39,21 @@ body, html {
   position: absolute;
   text-align: center;
   color: #4c1616;
-  font-size: 72px;
-  font-weight: bold;
   font-family: 'Indie Flower', cursive;
 }
 
 #name {
-  top: 35%;
+  font-weight: bold;
+  font-size: 100px;
+  top: 25%;
   right: 10%;
 }
 
 #developer {
-  top: 45%;
+  font-size: 72px;
+  -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+  animation-delay: 1.5s;
+  top: 38%;
   right: 10%;
 }
 
@@ -77,9 +80,41 @@ body, html {
   animation-name: zoomInDown;
 }
 
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
 h3 {
   text-transform: uppercase;
-  font: 26px "Lato", sans-serif;
+  font: 30px "Lato", sans-serif;
   color: #4c1616;
   text-align: center;
 }
@@ -104,19 +139,20 @@ p {
 }
 
 .textbox {
-  box-shadow: 10px 10px 5px #747475;
+  box-shadow: 10px 10px 5px #4c1616;
   background-color: rgb(234, 235, 237);
   padding: 4%;
 }
 
 .project-image {
   height: 150px;
-  border: 2px solid lightGray;
+  /*border: 2px solid lightGray;*/
   padding: 5px;
 }
 
 a {
   color: brown;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -127,6 +163,10 @@ a:hover {
   height: 200px;
   float: right;
   margin: 0px 0px 20px 20px;
+}
+
+.contact {
+  padding-left: 30%;
 }
 
 .contact-icon {
