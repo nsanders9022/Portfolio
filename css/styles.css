@@ -39,22 +39,25 @@ body, html {
   position: absolute;
   text-align: center;
   color: #4c1616;
-  font-family: 'Indie Flower', cursive;
+  /*font-family: 'Arima Madurai', cursive;*/
+  /*font-family: 'Megrim', cursive;*/
 }
 
 #name {
+  font-family: 'Poiret One', cursive;
   font-weight: bold;
   font-size: 100px;
   top: 25%;
-  right: 10%;
+  right: 7%;
 }
 
 #developer {
+  font-family: 'Megrim', cursive;
   font-size: 72px;
   -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
   animation-delay: 1.5s;
   top: 38%;
-  right: 10%;
+  right: 7%;
 }
 
 .animated {
@@ -112,19 +115,22 @@ body, html {
   animation-name: flipInX;
 }
 
-h3 {
+h3, a {
+  font-family: 'Indie Flower', cursive;
   text-transform: uppercase;
-  font: 30px "Lato", sans-serif;
+  font-size: 60px;
   color: #4c1616;
   text-align: center;
 }
 
-p {
-  font-size: 20px;
+p, .skills {
+  font-size: 22px;
+  font-family: 'Poiret One', cursive;
+  color: black;
 }
 
 .skills {
-  font-size: 24px;
+  /*font-size: 24px;*/
   margin: 0 auto;
 }
 
@@ -153,6 +159,7 @@ p {
 a {
   color: brown;
   text-decoration: underline;
+  font-size: 24px;
 }
 
 a:hover {
@@ -179,9 +186,15 @@ a:hover {
   padding-bottom: 20px;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1500px) {
+
+
+}
+
+
+
 @media only screen and (max-device-width: 1024px) {
-    .picture-1, .picture-2, .picture-3 {
+    .picture-1, .picture-2, .picture-3, .picture-4 {
         background-attachment: scroll;
     }
 }
