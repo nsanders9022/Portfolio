@@ -120,7 +120,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .skills {
@@ -136,6 +136,7 @@ p {
   text-align: justify;
   width: 80%;
   margin: 0 auto;
+  position:relative;
 }
 
 .textbox {
@@ -146,7 +147,6 @@ p {
 
 .project-image {
   height: 150px;
-  /*border: 2px solid lightGray;*/
   padding: 5px;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .contact {
-  padding-left: 30%;
+  padding-left: 32%;
 }
 
 .contact-icon {
