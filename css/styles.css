@@ -190,7 +190,7 @@ a:hover {
 
 /*-------------------------- Media Queries -------------------------------*/
 
-@media (max-width:1500px) {
+@media only screen and (max-width:1500px) {
   #name {
     font-size: 75px;
   }
@@ -200,7 +200,7 @@ a:hover {
   }
 
 }
-@media (max-width:1200px) {
+@media only screen and (max-width:1200px) {
   .text {
     padding: 5% 5%;
   }
@@ -214,7 +214,7 @@ a:hover {
   }
 }
 
-@media (max-width:767px) { /* big landscape tablets, laptops, and desktops */
+@media only screen and (max-width:767px) { /* big landscape tablets, laptops, and desktops */
   #name {
     font-size: 55px;
     top: 18%;
@@ -231,7 +231,7 @@ a:hover {
   }
 }
 
-@media (max-width:390px) { /* big landscape tablets, laptops, and desktops */
+@media only screen and (max-width:390px) { /* big landscape tablets, laptops, and desktops */
   #name {
     font-size: 55px;
     top: 2%
