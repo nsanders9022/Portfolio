@@ -38,7 +38,9 @@ body, html {
 .caption {
   position: absolute;
   text-align: center;
+  font-weight: bold;
   color: #4c1616;
+  text-shadow: 3px 3px white;
   /*font-family: 'Arima Madurai', cursive;*/
   /*font-family: 'Megrim', cursive;*/
 }
@@ -191,12 +193,10 @@ a:hover {
 @media (max-width:1500px) {
   #name {
     font-size: 75px;
-    top: 25%;
   }
 
   #developer {
     font-size: 50px;
-    top: 34%;
   }
 
 }
@@ -206,28 +206,42 @@ a:hover {
   }
 
   #name {
-    font-size: 60px;
-    top: 25%;
+    font-size: 65px;
   }
 
   #developer {
-    font-size: 40px;
-    top: 34%;
+    font-size: 47px;
   }
 }
 
-@media (max-width:800px) { /* big landscape tablets, laptops, and desktops */
+@media (max-width:767px) { /* big landscape tablets, laptops, and desktops */
   #name {
+    font-size: 55px;
+    top: 18%;
+  }
+
+  #developer {
     font-size: 45px;
     top: 25%;
   }
 
-  #developer {
-    font-size: 30px;
-    top: 34%;
+
+  .skills {
+    text-align: center;
   }
 }
 
+@media (max-width:390px) { /* big landscape tablets, laptops, and desktops */
+  #name {
+    font-size: 55px;
+    top: 2%
+  }
+
+  #developer {
+    font-size: 45px;
+    top: 15%;
+  }
+}
 
 
 @media only screen and (max-device-width: 1024px) {
