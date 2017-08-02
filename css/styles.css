@@ -142,7 +142,7 @@ p, .skills {
   background-color: white;
   text-align: center;
   padding: 3% 15%;
-  text-align: justify;
+  text-align: left;
   width: 100%;
   margin: 0 auto;
   position:relative;
@@ -225,27 +225,30 @@ a:hover {
     /*top: 25%;*/
   }
 
-
   .skills {
     text-align: center;
+  }
+
+  .contact-icon {
+    height: 20px;
   }
 }
 
 @media only screen and (max-width:390px) { /* big landscape tablets, laptops, and desktops */
   #name {
-    font-size: 55px;
-    top: 2%
+    font-size: 40px;
+    top: 5%
   }
 
   #developer {
-    font-size: 45px;
-    top: 20%;
+    font-size: 30px;
+    top: 15%;
   }
 }
 
 
-@media only screen and (max-device-width: 1024px) {
+/*@media only screen and (max-device-width: 1024px) {
     .picture-1, .picture-2, .picture-3, .picture-4 {
         background-attachment: scroll;
     }
-}
+}*/
