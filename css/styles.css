@@ -48,17 +48,17 @@ body, html {
 #name {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  font-size: 90px;
-  top: 25%;
+  font-size: 100px;
+  top: 10%;
   right: 7%;
 }
 
 #developer {
   font-family: 'Megrim', cursive;
-  font-size: 62px;
+  font-size: 70px;
   -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
   animation-delay: 1.5s;
-  top: 38%;
+  top: 20%;
   right: 7%;
 }
 
@@ -217,12 +217,12 @@ a:hover {
 @media only screen and (max-width:767px) { /* big landscape tablets, laptops, and desktops */
   #name {
     font-size: 55px;
-    top: 18%;
+    /*top: 18%;*/
   }
 
   #developer {
     font-size: 45px;
-    top: 25%;
+    /*top: 25%;*/
   }
 
 
@@ -239,7 +239,7 @@ a:hover {
 
   #developer {
     font-size: 45px;
-    top: 15%;
+    top: 20%;
   }
 }
 
